@@ -8,6 +8,9 @@
     "test": "xo && jest",
     "precommit": "lint-staged"
   },
+  "engines": {
+    "node": "24.x"
+  },
   "license": "MIT",
   "repository": "vercel/hazel",
   "xo": {
@@ -19,7 +22,29 @@
       "new-cap": 0,
       "unicorn/no-process-exit": 0,
       "no-await-in-loop": 0,
-      "unicorn/import-index": 0
+      "unicorn/import-index": 0,
+      "ava/assertion-arguments": 0,
+      "ava/no-async-fn-without-await": 0,
+      "ava/no-duplicate-modifiers": 0,
+      "ava/no-identical-title": 0,
+      "ava/no-ignored-test-files": 0,
+      "ava/no-invalid-end": 0,
+      "ava/no-nested-tests": 0,
+      "ava/no-only-test": 0,
+      "ava/no-skip-assert": 0,
+      "ava/no-skip-test": 0,
+      "ava/no-statement-after-end": 0,
+      "ava/no-todo-implementation": 0,
+      "ava/no-todo-test": 0,
+      "ava/no-unknown-modifiers": 0,
+      "ava/prefer-async-await": 0,
+      "ava/test-ended": 0,
+      "ava/test-title": 0,
+      "ava/use-t-well": 0,
+      "ava/use-t": 0,
+      "ava/use-test": 0,
+      "ava/use-true-false": 0,
+      "promise/prefer-await-to-then": 0
     }
   },
   "lint-staged": {
